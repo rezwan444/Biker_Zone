@@ -1,0 +1,53 @@
+@media only screen and (min-width:576px) and (max-width:992px)
+{ 
+    /* Header section start */
+
+.header-title >a, h1{
+    font-size: 3.5rem;
+    margin-top: 10px;
+}
+
+.nav-links{
+    display: none;
+}
+
+.humbarger{
+    font-size: 3rem;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Header Section end */
+
+/* banner section start */
+
+.banner-main{
+    flex-direction: column;
+   }
+   
+   .banner-description1{
+       font-size: 1.15rem;
+       opacity: 100%;
+   }
+   
+   .banner-title{
+       font-size: 3.5rem;
+   }
+   
+   .banner-description2{
+       font-size: 1.8rem;
+   }
+   
+   .banner-content2 > img{
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+   }
+   
+   .hide-small-device{
+       display: none;
+   }
+   
+   /* banner section end */
+
+ }
